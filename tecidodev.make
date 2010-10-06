@@ -2,5 +2,6 @@ core = 6.x
 
 ;Drupal development tools
 projects[] = devel
-projects[] = views_bulk_operation
+projects[] = diff
 projects[] = dumper
+projects[] = views_bulk_operation

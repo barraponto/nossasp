@@ -1,6 +1,6 @@
 core = 6.x
 
 ;Include base and usual features
-includes[tecidobase] = tecidobase.make
-includes[tecidoimage] = tecidoimage.make
-includes[tecidowysiwyg] = tecidowysiwyg.make
+includes[tecidobase] = http://github.com/barraponto/tecido-drupal-starterkit/raw/master/tecidobase.make
+includes[tecidoimage] = http://github.com/barraponto/tecido-drupal-starterkit/raw/master/tecidoimage.make
+includes[tecidowysiwyg] = http://github.com/barraponto/tecido-drupal-starterkit/raw/master/tecidowysiwyg.make

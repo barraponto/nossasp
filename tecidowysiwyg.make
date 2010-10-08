@@ -11,4 +11,4 @@ libraries[ckeditor][download][url]  = "http://download.cksource.com/CKEditor/CKE
 ;TinyMCE is Wordpress default WYSIWYG
 libraries[tinymce][download][type] = "post"
 libraries[tinymce][directory_name] = "tinymce"
-libraries[tinymce][download][url]  = "http://downloads.sourceforge.net/project/tinymce/TinyMCE/3.3.9.2/tinymce_3_3_9_2.zip/download"
+libraries[tinymce][download][url]  = "http://sourceforge.net/projects/tinymce/files/TinyMCE/3.3.9.2/tinymce_3_3_9_2.zip/download"

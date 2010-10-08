@@ -19,6 +19,5 @@ projects[] = recaptcha
 ;Drupal interface enhancements
 projects[] = admin
 projects[] = vertical_tabs
-projects[] = zen
 projects[zen][patch][] = "http://drupal.org/files/issues/zen-634552_0.patch"
 projects[] = seven

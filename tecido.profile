@@ -108,6 +108,9 @@ function tecido_profile_tasks(&$task, $url) {
   install_disable_theme('garland');
   install_admin_theme('seven');
 
+  //restrict user creation to administrators
+  variable_set('user_register',0);
+
   // Update the menu router information.
   menu_rebuild();
 }

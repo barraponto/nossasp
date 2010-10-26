@@ -15,9 +15,10 @@ projects[] = path_redirect
 projects[] = transliteration
 projects[] = captcha
 projects[] = recaptcha
+projects[] = toolbar
 
 ;Drupal interface enhancements
 projects[] = admin
 projects[] = vertical_tabs
-projects[zen][patch][] = "http://drupal.org/files/issues/zen-634552_0.patch"
+projects[zen][patch][] = "http://drupal.org/files/issues/634552-63-context-conflict.patch"
 projects[] = seven

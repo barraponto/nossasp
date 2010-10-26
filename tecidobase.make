@@ -1,6 +1,9 @@
 core = 6.x
 projects[] = drupal
 
+;Drupal Install Profile API
+projects[] = install_profile_api
+
 ;Drupal building blocks
 projects[] = cck
 projects[] = context

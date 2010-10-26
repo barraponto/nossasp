@@ -1,4 +1,5 @@
 core = 6.x
+api = 2
 
 ;Include base and usual features
 includes[tecidobase] = http://github.com/barraponto/tecido-drupal-starterkit/raw/master/tecidobase.make

@@ -106,7 +106,7 @@ function tecido_profile_tasks(&$task, $url) {
   install_enable_theme('zen');
   install_default_theme('zen');
   install_disable_theme('garland');
-  install_admin_theme('seven');
+  install_admin_theme('rubik');
 
   //restrict user creation to administrators
   variable_set('user_register',0);

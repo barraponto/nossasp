@@ -10,6 +10,7 @@ projects[] = context
 projects[] = features
 projects[] = pathauto
 projects[] = views
+projects[] = ctools
 
 ;Drupal framework extensions
 projects[] = adminrole

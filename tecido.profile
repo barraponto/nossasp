@@ -15,8 +15,11 @@ function tecido_profile_modules() {
     //core modules
     'comment', 'help', 'menu', 'taxonomy',
 
-    //contrib modules
-    'admin', 'adminrole', 'vertical_tabs',
+    //build modules
+    'ctools', 'features', 'context',
+
+    //other contrib modules
+    'admin', 'adminrole', 'pathauto', 'path_redirect', 'token', 'vertical_tabs',
   );
 }
 

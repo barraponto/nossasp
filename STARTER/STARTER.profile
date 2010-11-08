@@ -13,10 +13,10 @@ function STARTER_profile_modules() {
     'install_profile_api',
 
     //core modules
-    'comment', 'help', 'menu', 'taxonomy',
+    'comment', 'help', 'menu', 'path', 'taxonomy',
 
     //build modules
-    'ctools', 'features', 'context',
+    'ctools', 'context','features',
 
     //other contrib modules
     'admin', 'adminrole', 'pathauto', 'path_redirect', 'token', 'vertical_tabs',

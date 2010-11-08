@@ -23,6 +23,9 @@ function STARTER_profile_modules() {
 
     //captcha modules
     'captcha', 'recaptcha',
+
+    //image modules
+    //'filefield', 'imagefield', 'imageapi', 'imageapi_gd', 'imagecache', 
     
     //other contrib modules
     'admin', 'adminrole', 'pathauto', 'path_redirect', 'token', 'transliteration', 'vertical_tabs',

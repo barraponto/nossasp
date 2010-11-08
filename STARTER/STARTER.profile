@@ -27,6 +27,9 @@ function STARTER_profile_modules() {
     //image modules
     //'filefield', 'imagefield', 'imageapi', 'imageapi_gd', 'imagecache', 
     
+    //wysiwyg modules
+    //'wysiwyg'
+    
     //other contrib modules
     'admin', 'adminrole', 'pathauto', 'path_redirect', 'token', 'transliteration', 'vertical_tabs',
   );

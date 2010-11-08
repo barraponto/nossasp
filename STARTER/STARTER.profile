@@ -25,7 +25,7 @@ function STARTER_profile_modules() {
     'captcha', 'recaptcha',
     
     //other contrib modules
-    'admin', 'adminrole', 'pathauto', 'path_redirect', 'token', 'vertical_tabs',
+    'admin', 'adminrole', 'pathauto', 'path_redirect', 'token', 'transliteration', 'vertical_tabs',
   );
 }
 

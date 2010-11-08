@@ -20,6 +20,9 @@ function STARTER_profile_modules() {
 
     //base cck modules
     'content', 'text', 'number', 'optionwidgets',
+
+    //captcha modules
+    'captcha', 'recaptcha',
     
     //other contrib modules
     'admin', 'adminrole', 'pathauto', 'path_redirect', 'token', 'vertical_tabs',

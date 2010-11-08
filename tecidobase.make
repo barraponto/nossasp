@@ -19,7 +19,6 @@ projects[] = path_redirect
 projects[] = transliteration
 projects[] = captcha
 projects[] = recaptcha
-projects[] = toolbar
 
 ;Drupal interface enhancements
 projects[] = admin

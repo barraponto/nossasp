@@ -7,7 +7,7 @@
  * @return
  *   An array of modules to enable.
  */
-function tecido_profile_modules() {
+function STARTER_profile_modules() {
   return array(
     //install profile api
     'install_profile_api',
@@ -31,9 +31,9 @@ function tecido_profile_modules() {
  *   and optional 'language' to override the language selection for
  *   language-specific profiles.
  */
-function tecido_profile_details() {
+function STARTER_profile_details() {
   return array(
-    'name' => 'Tecido',
+    'name' => 'Tecido Starter Kit',
     'description' => 'Select this profile to have Tecido Starter Kit installed.'
   );
 }
@@ -47,7 +47,7 @@ function tecido_profile_details() {
  *   while the values will be displayed to the user in the installer
  *   task list.
  */
-function tecido_profile_task_list() {
+function STARTER_profile_task_list() {
 }
 
 /**
@@ -101,9 +101,9 @@ function tecido_profile_task_list() {
  *   An optional HTML string to display to the user. Only used if you
  *   modify the $task, otherwise discarded.
  */
-function tecido_profile_tasks(&$task, $url) {
+function STARTER_profile_tasks(&$task, $url) {
 
-  install_include(tecido_profile_modules());
+  install_include(STARTER_profile_modules());
 
   //instead of zen, use the project sub-theme
   install_enable_theme('zen');
@@ -124,7 +124,7 @@ function tecido_profile_tasks(&$task, $url) {
  * Allows the profile to alter the site-configuration form. This is
  * called through custom invocation, so $form_state is not populated.
  */
-function tecido_form_alter(&$form, $form_state, $form_id) {
+function STARTER_form_alter(&$form, $form_state, $form_id) {
   if ($form_id == 'install_configure') {
     // Set default for site name field.
     $form['site_information']['site_name']['#default_value'] = $_SERVER['SERVER_NAME'];

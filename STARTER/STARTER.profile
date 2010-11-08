@@ -114,6 +114,9 @@ function STARTER_profile_tasks(&$task, $url) {
   //restrict user creation to administrators
   variable_set('user_register',0);
 
+  //set pathauto update action to path redirect
+  variable_set('pathauto_update_action', 3);
+
   // Update the menu router information.
   menu_rebuild();
 }

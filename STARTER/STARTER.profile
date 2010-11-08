@@ -18,6 +18,9 @@ function STARTER_profile_modules() {
     //build modules
     'ctools', 'context','features',
 
+    //base cck modules
+    'content', 'text', 'number', 'optionwidgets',
+    
     //other contrib modules
     'admin', 'adminrole', 'pathauto', 'path_redirect', 'token', 'vertical_tabs',
   );

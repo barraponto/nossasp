@@ -17,8 +17,6 @@ projects[] = adminrole
 projects[] = token
 projects[] = path_redirect
 projects[] = transliteration
-projects[] = captcha
-projects[] = recaptcha
 
 ;Drupal interface enhancements
 projects[] = admin

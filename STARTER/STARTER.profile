@@ -13,7 +13,7 @@ function STARTER_profile_modules() {
     'install_profile_api',
 
     //core modules
-    'comment', 'help', 'menu', 'path', 'taxonomy',
+    'comment', 'help', 'menu', 'path', 'search', 'taxonomy',
 
     //build modules
     'ctools', 'context', 'features', 'views',

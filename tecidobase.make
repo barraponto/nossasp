@@ -22,5 +22,6 @@ projects[] = transliteration
 projects[] = admin
 projects[] = vertical_tabs
 projects[zen][patch][] = "http://drupal.org/files/issues/634552-63-context-conflict.patch"
+projects[zen][patch][] = "http://drupal.org/files/issues/zen-allow-without-database-795264-8.patch"
 projects[] = tao
 projects[] = rubik 

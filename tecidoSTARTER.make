@@ -6,3 +6,4 @@ includes[tecidobase] = http://github.com/barraponto/tecido-drupal-starterkit/raw
 includes[tecidoimage] = http://github.com/barraponto/tecido-drupal-starterkit/raw/master/tecidoimage.make
 includes[tecidowysiwyg] = http://github.com/barraponto/tecido-drupal-starterkit/raw/master/tecidowysiwyg.make
 includes[tecidocaptcha] = http://github.com/barraponto/tecido-drupal-starterkit/raw/master/tecidocaptcha.make
+;includes[tecidodev] = http://github.com/barraponto/tecido-drupal-starterkit/raw/master/tecidodev.make

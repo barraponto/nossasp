@@ -25,7 +25,7 @@ function STARTER_profile_modules() {
     //'captcha', 'recaptcha',
 
     //image modules
-    //'filefield', 'imagefield', 'imageapi', 'imageapi_gd', 'imagecache', 
+    //'filefield', 'filefield_paths', 'imagefield', 'imageapi', 'imageapi_gd', 'imagecache', 'imagefield_tokens', 
 
     //wysiwyg modules
     //'wysiwyg',

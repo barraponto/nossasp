@@ -28,7 +28,7 @@ function STARTER_profile_modules() {
     //'filefield', 'filefield_paths', 'imagefield', 'imageapi', 'imageapi_gd', 'imagecache', 'imagefield_tokens', 
 
     //date modules
-    //'date', 'date_popup', 'calendar', 'jquery_ui',
+    //'date_popup', 'date', 'calendar', 'jquery_ui',
 
     //wysiwyg modules
     //'wysiwyg',

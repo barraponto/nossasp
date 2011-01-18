@@ -1,5 +1,5 @@
 core = 6.x
 
-;Drupal image support
+;Drupal captcha support
 projects[] = captcha
 projects[] = recaptcha

@@ -16,7 +16,7 @@ function STARTER_profile_modules() {
     'comment', 'help', 'menu', 'path', 'search', 'taxonomy',
 
     //build modules
-    'ctools', 'context', 'features', 'views',
+    'ctools', 'context', 'features', 'strongarm', 'views',
 
     //base cck modules
     'content', 'text', 'number', 'optionwidgets',

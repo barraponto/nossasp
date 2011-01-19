@@ -11,6 +11,7 @@ projects[] = features
 projects[] = pathauto
 projects[] = views
 projects[] = ctools
+projects[] = strongarm
 
 ;Drupal framework extensions
 projects[] = adminrole

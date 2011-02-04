@@ -120,6 +120,7 @@ function STARTER_profile_tasks(&$task, $url) {
 
   install_include(STARTER_profile_modules());
 
+  //TODO: setup in tecido_distro.feature using Strongarm
   //instead of zen, use the project sub-theme
   install_enable_theme('zen');
   install_default_theme('zen');

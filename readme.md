@@ -16,16 +16,16 @@ How to build
 ============
 
 Fork this repository and make your changes to it, then write a make file named
-$PROJECT-stub.make with the following contents:
+PROJECT-stub.make with the following contents:
 
     core = 6.x
     projects[] = drupal
     api = 2
     
-    projects[$PROJECT][type] = profile
-    projects[$PROJECT][download][type] = git
-    projects[$PROJECT][download][url] = git://github.com/$USER/$PROJECT_REPO
+    projects[PROJECT][type] = profile
+    projects[PROJECT][download][type] = git
+    projects[PROJECT][download][url] = git://github.com/USER/PROJECT_REPO
 
 Then run drush make on the makefile, pointing to a path where the drupal root will be installed:
 
-  drush make $PROJECT-stub.make $PROJECT_FOLDER
+  drush make PROJECT-stub.make PROJECT_FOLDER

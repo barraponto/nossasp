@@ -4,6 +4,10 @@ projects[] = drupal
 ;Drupal Install Profile API
 projects[] = install_profile_api
 
+;Drupal language tools
+projects[] = l10n_update
+projects[] = l10n_client
+
 ;Drupal building blocks
 projects[] = cck
 projects[] = context

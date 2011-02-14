@@ -23,6 +23,7 @@ projects[] = token
 projects[] = path_redirect
 projects[] = transliteration
 projects[] = password
+projects[] = semanticviews
 
 ;Drupal interface enhancements
 projects[] = admin

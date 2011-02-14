@@ -7,7 +7,7 @@
  * @return
  *   An array of modules to enable.
  */
-function STARTER_profile_modules() {
+function tecidoSTARTER_profile_modules() {
   return array(
     //install profile api
     'install_profile_api',
@@ -46,7 +46,7 @@ function STARTER_profile_modules() {
  *   and optional 'language' to override the language selection for
  *   language-specific profiles.
  */
-function STARTER_profile_details() {
+function tecidoSTARTER_profile_details() {
   return array(
     'name' => 'Tecido Starter Kit',
     'description' => 'Select this profile to have Tecido Starter Kit installed.'
@@ -62,7 +62,7 @@ function STARTER_profile_details() {
  *   while the values will be displayed to the user in the installer
  *   task list.
  */
-function STARTER_profile_task_list() {
+function tecidoSTARTER_profile_task_list() {
 }
 
 /**
@@ -116,9 +116,9 @@ function STARTER_profile_task_list() {
  *   An optional HTML string to display to the user. Only used if you
  *   modify the $task, otherwise discarded.
  */
-function STARTER_profile_tasks(&$task, $url) {
+function tecidoSTARTER_profile_tasks(&$task, $url) {
 
-  install_include(STARTER_profile_modules());
+  install_include(tecidoSTARTER_profile_modules());
 
   //TODO: setup in tecido_distro.feature using Strongarm
   //instead of zen, use the project sub-theme
@@ -141,7 +141,7 @@ function STARTER_profile_tasks(&$task, $url) {
   //variable_set('recaptcha_private_key', $YOUR_PRIVATE_KEY);
 
   //set wysiwyg variables
-  //db_query("INSERT INTO {wysiwyg} (format, editor, settings) VALUES ('%d', '%s', '%s')", 2, 'tinymce', STARTER_wysiwyg_settings('tinymce'));
+  //db_query("INSERT INTO {wysiwyg} (format, editor, settings) VALUES ('%d', '%s', '%s')", 2, 'tinymce', tecidoSTARTER_wysiwyg_settings('tinymce'));
 
   // Update the menu router information.
   menu_rebuild();
@@ -153,7 +153,7 @@ function STARTER_profile_tasks(&$task, $url) {
  * Allows the profile to alter the site-configuration form. This is
  * called through custom invocation, so $form_state is not populated.
  */
-function STARTER_form_alter(&$form, $form_state, $form_id) {
+function tecidoSTARTER_form_alter(&$form, $form_state, $form_id) {
   if ($form_id == 'install_configure') {
     // Set default for site name field.
     $form['site_information']['site_name']['#default_value'] = $_SERVER['SERVER_NAME'];
@@ -165,7 +165,7 @@ function STARTER_form_alter(&$form, $form_state, $form_id) {
  *
  * Returns settings for wysiwyg editors
  */
-function STARTER_wysiwyg_settings($editor) {
+function tecidoSTARTER_wysiwyg_settings($editor) {
   switch($editor) {
     case 'tinymce':
       $settings = array(

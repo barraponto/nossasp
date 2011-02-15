@@ -15,6 +15,9 @@ function tecidoSTARTER_profile_modules() {
     //core modules
     'comment', 'help', 'menu', 'path', 'search', 'taxonomy',
 
+    //localization modules
+    'locale', 'l10n_update', 'l10n_client',
+
     //build modules
     'ctools', 'context', 'features', 'strongarm', 'views',
 

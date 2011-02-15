@@ -126,19 +126,6 @@ function tecidoSTARTER_profile_tasks(&$task, $url) {
 
   install_include(tecidoSTARTER_profile_modules());
 
-  //restrict user creation to administrators
-  variable_set('user_register',0);
-
-  //set pathauto update action to path redirect
-  variable_set('pathauto_update_action', 3);
-
-  //set default captcha to recaptcha
-  //variable_set('captcha_default_challenge','recaptcha/reCAPTCHA');
-
-  //set recaptcha api key
-  //variable_set('recaptcha_public_key', $YOUR_PUBLIC_KEY);
-  //variable_set('recaptcha_private_key', $YOUR_PRIVATE_KEY);
-
   //set wysiwyg variables
   //db_query("INSERT INTO {wysiwyg} (format, editor, settings) VALUES ('%d', '%s', '%s')", 2, 'tinymce', tecidoSTARTER_wysiwyg_settings('tinymce'));
 

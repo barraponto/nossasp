@@ -126,13 +126,6 @@ function tecidoSTARTER_profile_tasks(&$task, $url) {
 
   install_include(tecidoSTARTER_profile_modules());
 
-  //TODO: setup in tecido_distro.feature using Strongarm
-  //instead of zen, use the project sub-theme
-  install_enable_theme('zen');
-  install_default_theme('zen');
-  install_disable_theme('garland');
-  install_admin_theme('rubik');
-
   //restrict user creation to administrators
   variable_set('user_register',0);
 

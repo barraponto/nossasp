@@ -10,7 +10,7 @@
 function tecidoSTARTER_profile_modules() {
   return array(
     //install profile api
-    'install_profile_api',
+    //'install_profile_api',
 
     //core modules
     'comment', 'help', 'menu', 'path', 'search', 'taxonomy',
@@ -123,8 +123,6 @@ function tecidoSTARTER_profile_task_list() {
  *   modify the $task, otherwise discarded.
  */
 function tecidoSTARTER_profile_tasks(&$task, $url) {
-
-  install_include(tecidoSTARTER_profile_modules());
 
   //set wysiwyg variables
   //db_query("INSERT INTO {wysiwyg} (format, editor, settings) VALUES ('%d', '%s', '%s')", 2, 'tinymce', tecidoSTARTER_wysiwyg_settings('tinymce'));

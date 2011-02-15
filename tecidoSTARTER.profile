@@ -19,7 +19,7 @@ function tecidoSTARTER_profile_modules() {
     'locale', 'l10n_update', 'l10n_client',
 
     //build modules
-    'ctools', 'context', 'features', 'strongarm', 'views',
+    'ctools', 'context', 'features', 'pathauto', 'strongarm', 'views',
 
     //base cck modules
     'content', 'text', 'number', 'optionwidgets',
@@ -37,7 +37,7 @@ function tecidoSTARTER_profile_modules() {
     //'wysiwyg',
 
     //other contrib modules
-    'admin', 'adminrole', 'pathauto', 'path_redirect', 'token', 'transliteration', 'vertical_tabs',
+    'admin', 'adminrole', 'path_redirect', 'token', 'transliteration', 'vertical_tabs',
   );
 }
 

@@ -36,8 +36,11 @@ function tecidoSTARTER_profile_modules() {
     //wysiwyg modules
     //'wysiwyg',
 
+    //interface enhancement modules
+    'admin', 'admin_theme', 'better_messages', 'nodeformcols', 'toolbar',
+
     //other contrib modules
-    'admin', 'adminrole', 'path_redirect', 'token', 'transliteration', 'vertical_tabs',
+    'adminrole', 'password', 'path_redirect', 'semanticviews', 'token', 'transliteration',
   );
 }
 

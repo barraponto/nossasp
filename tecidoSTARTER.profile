@@ -31,7 +31,7 @@ function tecidoSTARTER_profile_modules() {
     //'filefield', 'filefield_paths', 'imagefield', 'imageapi', 'imageapi_gd', 'imagecache', 'imagefield_tokens', 
 
     //date modules
-    //'date_popup', 'date', 'calendar', 'jquery_ui',
+    //'date_api', 'date', 'date_timezone', 'date_popup', 'calendar', 'jquery_ui',
 
     //wysiwyg modules
     //'wysiwyg',

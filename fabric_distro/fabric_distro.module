@@ -1,7 +1,3 @@
 <?php
 
 include_once('fabric_distro.features.inc');
-
-function fabric_distro_enable() {
-  features_revert(array('fabric_distro' => array('variable')));
-}

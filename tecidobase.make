@@ -27,7 +27,7 @@ projects[] = semanticviews
 
 ;Drupal interface enhancements
 projects[] = admin
-projects[] = toolbar 
+projects[toolbar][patch][] = "http://drupal.org/files/issues/toolbar-hidden-class-fix.patch"
 projects[] = nodeformcols
 projects[] = admin_theme
 projects[] = better_messages

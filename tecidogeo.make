@@ -2,6 +2,7 @@ core = 6.x
 
 ;Drupal geo reference features
 projects[] = geo
+projects[geocode] = 1.0-alpha2
 projects[geocode][patch][] = http://drupal.org/files/issues/geocode-undefined-index.patch
 projects[postal][type] = module
 projects[postal][download][type] = git

@@ -27,12 +27,9 @@ projects[] = semanticviews
 
 ;Drupal interface enhancements
 projects[] = admin
-projects[toolbar] = 2.3
-projects[toolbar][patch][] = "http://drupal.org/files/issues/toolbar-hidden-class-fix.patch"
+projects[] = toolbar
 projects[] = nodeformcols
 projects[] = admin_theme
 projects[] = better_messages
-projects[zen] = 2.0
-projects[zen][patch][] = "http://drupal.org/files/issues/634552-63-context-conflict.patch"
-projects[zen][patch][] = "http://drupal.org/files/issues/zen-allow-without-database-795264-8.patch"
+projects[] = zen
 projects[] = seven

@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #change the variables to suit your project
-PROJECT_EXTENDED="NossaSP: Mapa das Entidades Colaborativas"
-PROJECT="NossaSP"
+PROJECT_EXTENDED="Tecido Starter"
+PROJECT="tecidoSTARTER"
 GITHUB_USER="barraponto"
 
 sed "s/tecidoSTARTER/$PROJECT/g" -i readme.md tecidoSTARTER.profile tecidoSTARTER-stub.make

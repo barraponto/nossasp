@@ -60,8 +60,8 @@ function nossasp_profile_modules() {
  */
 function nossasp_profile_details() {
   return array(
-    'name' => 'Tecido Starter Kit',
-    'description' => 'Select this profile to have Tecido Starter Kit installed.'
+    'name' => 'Nossa São Paulo',
+    'description' => 'Select this profile to install a map of Collaborative Entities.'
   );
 }
 

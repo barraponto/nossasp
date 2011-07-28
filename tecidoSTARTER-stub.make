@@ -4,4 +4,4 @@
     
     projects[tecidoSTARTER][type] = profile
     projects[tecidoSTARTER][download][type] = git
-    projects[tecidoSTARTER][download][url] = git://github.com/barraponto/tecido-drupal-starterkit.git
+    projects[tecidoSTARTER][download][url] = git://github.com/barraponto/tecidoSTARTER.git

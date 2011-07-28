@@ -7,7 +7,7 @@
  * @return
  *   An array of modules to enable.
  */
-function nossasp_profile_modules() {
+function tecidoSTARTER_profile_modules() {
   return array(
     //install profile api
     //'install_profile_api',
@@ -25,16 +25,22 @@ function nossasp_profile_modules() {
     'content', 'text', 'number', 'optionwidgets',
 
     //captcha modules
-    //'captcha', 'recaptcha',
+    'captcha', 'recaptcha',
 
     //image modules
-    //'filefield', 'filefield_paths', 'imagefield', 'imageapi', 'imageapi_gd', 'imagecache', 'imagefield_tokens', 
+    'filefield', 'filefield_paths', 'imagefield', 'imageapi', 'imageapi_gd', 'imagecache', 'imagefield_tokens', 
 
     //date modules
-    //'date_api', 'date', 'date_timezone', 'date_popup', 'calendar', 'jquery_ui',
+    'date_api', 'date', 'date_timezone', 'date_popup', 'calendar', 'jquery_ui',
+
+    //profile modules
+    //'content_profile', 'context_content_profile',
+
+    //geo modules
+    'openlayers', 'openlayers_cck', 'openlayers_views', 'openlayers_geocoder',
 
     //wysiwyg modules
-    //'wysiwyg',
+    'wysiwyg',
 
     //interface enhancement modules
     'admin', 'admin_theme', 'better_messages', 'nodeformcols', 'toolbar',
@@ -52,7 +58,7 @@ function nossasp_profile_modules() {
  *   and optional 'language' to override the language selection for
  *   language-specific profiles.
  */
-function nossasp_profile_details() {
+function tecidoSTARTER_profile_details() {
   return array(
     'name' => 'Tecido Starter Kit',
     'description' => 'Select this profile to have Tecido Starter Kit installed.'
@@ -68,7 +74,7 @@ function nossasp_profile_details() {
  *   while the values will be displayed to the user in the installer
  *   task list.
  */
-function nossasp_profile_task_list() {
+function tecidoSTARTER_profile_task_list() {
 }
 
 /**
@@ -122,10 +128,10 @@ function nossasp_profile_task_list() {
  *   An optional HTML string to display to the user. Only used if you
  *   modify the $task, otherwise discarded.
  */
-function nossasp_profile_tasks(&$task, $url) {
+function tecidoSTARTER_profile_tasks(&$task, $url) {
 
   //set wysiwyg variables
-  //db_query("INSERT INTO {wysiwyg} (format, editor, settings) VALUES ('%d', '%s', '%s')", 2, 'tinymce', nossasp_wysiwyg_settings('tinymce'));
+  db_query("INSERT INTO {wysiwyg} (format, editor, settings) VALUES ('%d', '%s', '%s')", 2, 'tinymce', tecidoSTARTER_wysiwyg_settings('tinymce'));
 
   // Update the menu router information.
   menu_rebuild();
@@ -137,7 +143,7 @@ function nossasp_profile_tasks(&$task, $url) {
  * Allows the profile to alter the site-configuration form. This is
  * called through custom invocation, so $form_state is not populated.
  */
-function nossasp_form_alter(&$form, $form_state, $form_id) {
+function tecidoSTARTER_form_alter(&$form, $form_state, $form_id) {
   if ($form_id == 'install_configure') {
     // Set default for site name field.
     $form['site_information']['site_name']['#default_value'] = $_SERVER['SERVER_NAME'];
@@ -149,7 +155,7 @@ function nossasp_form_alter(&$form, $form_state, $form_id) {
  *
  * Returns settings for wysiwyg editors
  */
-function nossasp_wysiwyg_settings($editor) {
+function tecidoSTARTER_wysiwyg_settings($editor) {
   switch($editor) {
     case 'tinymce':
       $settings = array(

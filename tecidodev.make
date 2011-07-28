@@ -4,4 +4,4 @@ core = 6.x
 projects[] = devel
 projects[] = diff
 projects[] = dumper
-projects[] = views_bulk_operation
+projects[] = views_bulk_operations

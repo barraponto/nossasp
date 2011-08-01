@@ -13,7 +13,7 @@ function nossasp_profile_modules() {
     //'install_profile_api',
 
     //core modules
-    'comment', 'help', 'menu', 'path', 'search', 'taxonomy',
+    'help', 'menu', 'path', 'search', 'taxonomy',
 
     //localization modules
     'locale', 'l10n_update', 'l10n_client',

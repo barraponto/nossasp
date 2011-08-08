@@ -34,7 +34,7 @@ function nossasp_profile_modules() {
     'date_api', 'date', 'date_timezone', 'date_popup', 'calendar', 'jquery_ui',
 
     //profile modules
-    //'content_profile', 'context_content_profile',
+    'content_profile', 'context_content_profile',
 
     //geo modules
     'openlayers', 'openlayers_cck', 'openlayers_views', 'openlayers_geocoder',

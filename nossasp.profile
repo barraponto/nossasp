@@ -46,7 +46,7 @@ function nossasp_profile_modules() {
     'admin', 'admin_theme', 'better_messages', 'nodeformcols', 'toolbar',
 
     //other contrib modules
-    'adminrole', 'password', 'path_redirect', 'semanticviews', 'token', 'transliteration',
+    'adminrole', 'password', 'path_redirect', 'semanticviews', 'token', 'transliteration', 'rules',
   );
 }
 

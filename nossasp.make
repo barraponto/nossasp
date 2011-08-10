@@ -15,3 +15,6 @@ includes[tecidodev] = tecidodev.make
 projects[nossasp_features][type] = module
 projects[nossasp_features][download][type] = git
 projects[nossasp_features][download][url] = git://github.com/barraponto/nossasp_features.git
+
+;NossaSP Dependencies
+projects[] = rules

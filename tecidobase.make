@@ -25,6 +25,7 @@ projects[] = path_redirect
 projects[] = transliteration
 projects[] = password
 projects[] = semanticviews
+projects[] = override_node_options
 
 ;Drupal interface enhancements
 projects[] = admin

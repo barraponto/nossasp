@@ -33,6 +33,6 @@ projects[toolbar][patch][] = http://drupal.org/files/issues/1248670-toolbar-zen-
 projects[] = nodeformcols
 projects[] = admin_theme
 projects[better_messages] = 1.13
-projects[better_messages][patch][] = http://drupal.org/files/issues/better-messages-declare-colors.patch
+projects[better_messages][patch][] = http://drupal.org/files/issues/1250264-better-messages-declare-colors-2.patch
 projects[] = zen
 projects[] = seven

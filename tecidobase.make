@@ -28,7 +28,8 @@ projects[] = semanticviews
 
 ;Drupal interface enhancements
 projects[] = admin
-projects[] = toolbar
+projects[toolbar] = 2.4
+projects[toolbar][patch][] = http://drupal.org/files/issues/1248670-toolbar-zen-conflict-2.patch
 projects[] = nodeformcols
 projects[] = admin_theme
 projects[] = better_messages

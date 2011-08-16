@@ -31,3 +31,4 @@ NossaSP: Mapa das Entidades Colaborativas
 
 * acompanhamento da gestão
 * moderação de novos usuários e novos conteúdos
+* busca facetada (local, atuação, nome)

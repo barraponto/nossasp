@@ -1,7 +1,8 @@
 NossaSP: Mapa das Entidades Colaborativas
 ====================================
 
-Entidade:
+## Entidade:
+
 * atividades promovidas (checkbox)
 * breve descrição (text)
 * como participar (checkbox)
@@ -13,17 +14,20 @@ Entidade:
 * atuação (taxonomia)
 * contato (mail?)
 
-Conselho:
+## Conselho:
+
 * todas as anteriores
 * composição (nome,entidade, pública?, titular?)
 * gestão
 
-Mantenedor:
+## Mantenedor:
+
 * nome
 * email
 * telefone
 * entidades
 
-Features
+## Features
+
 * acompanhamento da gestão
 * moderação de novos usuários e novos conteúdos

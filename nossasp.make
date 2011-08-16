@@ -18,3 +18,5 @@ projects[nossasp_features][download][url] = git://github.com/barraponto/nossasp_
 
 ;NossaSP Dependencies
 projects[] = rules
+projects[] = mail
+projects[] = link

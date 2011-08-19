@@ -20,3 +20,6 @@ projects[nossasp_features][download][url] = git://github.com/barraponto/nossasp_
 projects[] = rules
 projects[] = mail
 projects[] = link
+projects[] = phone
+projects[] = conditional_fields
+projects[] = content_taxonomy

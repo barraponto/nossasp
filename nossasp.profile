@@ -37,16 +37,22 @@ function nossasp_profile_modules() {
     'content_profile','content_profile_registration', 'context_content_profile',
 
     //geo modules
-    'openlayers', 'openlayers_cck', 'openlayers_views', 'openlayers_geocoder',
+    'openlayers', 'openlayers_cck', 'openlayers_views', 'openlayers_geocoder', 'openlayers_proximity',
+
+    //contact modules
+    'link', 'email', 'phone',
 
     //wysiwyg modules
     'wysiwyg',
 
     //interface enhancement modules
-    'admin', 'admin_theme', 'better_messages', 'nodeformcols', 'toolbar',
+    'admin', 'admin_theme', 'better_messages', 'nodeformcols', 'toolbar', 
+
+    //cck extras
+    'conditional_fields', 'content_permissions', 'content_taxonomy', 'content_taxonomy_options',
 
     //other contrib modules
-    'adminrole', 'password', 'path_redirect', 'semanticviews', 'token', 'transliteration', 'rules',
+    'adminrole', 'override_node_options', 'password', 'path_redirect', 'rules', 'semanticviews', 'token', 'transliteration', 'views_or',
   );
 }
 

@@ -18,8 +18,14 @@ projects[nossasp_features][download][url] = git://github.com/barraponto/nossasp_
 
 ;NossaSP Dependencies
 projects[] = rules
-projects[] = mail
+projects[] = email
 projects[] = link
 projects[] = phone
 projects[] = conditional_fields
 projects[] = content_taxonomy
+
+;NossaSP Themes
+projects[] = tao
+projects[singular][types] = theme
+projects[singular][download][type] = git
+projects[singular][download][url] = git://github.com/barraponto/singular.git
